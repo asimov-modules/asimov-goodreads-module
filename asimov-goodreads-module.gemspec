@@ -24,6 +24,7 @@ Gem::Specification.new do |gem|
   gem.executables        = Dir.glob("bin/*").map { |f| File.basename(f) }
 
   gem.required_ruby_version = ">= 3.2"
-  gem.add_development_dependency "rake"
-  gem.add_runtime_dependency     "asimov-module"
+  gem.add_development_dependency "rake", ">= 13"
+  gem.add_runtime_dependency     "asimov-module", ">= 25.0.0.dev"
+  gem.add_runtime_dependency     "know"
 end
