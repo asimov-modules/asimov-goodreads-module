@@ -1,0 +1,26 @@
+PATH
+  remote: .
+  specs:
+    asimov-goodreads-module (0.0.0)
+      asimov-module
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asimov-config (25.0.0.dev.4)
+      pathname (>= 0.4)
+    asimov-module (25.0.0.dev.4)
+      asimov-config (= 25.0.0.dev.4)
+    pathname (0.4.0)
+    rake (13.2.1)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  asimov-goodreads-module!
+  rake
+
+BUNDLED WITH
+   2.6.2
